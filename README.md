@@ -3,6 +3,7 @@
 ### requirements:
 - Node v12+
 - Mongodb
+- Redis
 
 ### steps to start the server :
 1. npm i
