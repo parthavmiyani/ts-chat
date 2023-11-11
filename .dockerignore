@@ -1,0 +1,21 @@
+# Exclude development and build files
+node_modules
+dist
+npm-debug.log
+*.log
+*.bak
+*.swp
+
+# Exclude version control files and directories
+.git
+.gitignore
+.gitattributes
+.vscode
+.idea
+.scannerwork
+sonar-project.properties
+
+# Exclude docker files
+Dockerfile
+Dockerfile.Local
+db
