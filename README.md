@@ -1,7 +1,7 @@
 # Socket Chat Node api-demo
 
 ### requirements:
-- Node v12+
+- Node v14+
 - Mongodb
 - Redis
 
