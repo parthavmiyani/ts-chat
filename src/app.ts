@@ -9,7 +9,7 @@ const server = http.createServer(app);
 connectToDatabase();
 SocketIO.initailizeServer(server);
 
-let PORT = process.argv[2] || 3000;
+let PORT = process.env.PORT || 3000;
 console.log(PORT);
 
 server.listen(PORT, () => {
