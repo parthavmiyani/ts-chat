@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "ts-node src/app.ts",
-    "prod": "set NODE_ENV=production&& node dist/app.js",
-    "dev": "set NODE_ENV=production&& nodemon src/app.ts",
+    "prod": "NODE_ENV=production node dist/app.js",
+    "dev": "NODE_ENV=production nodemon src/app.ts",
     "build": "npm run clean && tsc",
     "clean": "rimraf dist"
   },
